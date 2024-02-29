@@ -61,7 +61,6 @@ class ProductsController:
     # @route.get(
     #     "/{id}",
     #     response=schema.ProductSchema,
-    #     permissions=[permissions.HasAccessToProduct],
     # )
     # def get_product_by_id(self, id: int):
     #     return self.products_service.get_product_by_id(self.uow, id)
